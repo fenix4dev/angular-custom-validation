@@ -6,7 +6,7 @@ import {
   SimpleChanges,
 } from '@angular/core';
 import * as _l from 'lodash';
-import { CommonService } from 'src/app/services/common.service';
+import { CommonService } from '../../services/common.service';
 
 @Component({
   selector: 'input-validator',

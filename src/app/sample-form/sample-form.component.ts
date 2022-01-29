@@ -14,9 +14,7 @@ export class SampleFormComponent implements OnInit {
   constructor(
     private commonService: CommonService,
     private _snackBar: MatSnackBar
-  ) {
-    console.log('log');
-  }
+  ) {}
 
   openSnackBar(message: string): void {
     this._snackBar.open(message, 'Close', {
